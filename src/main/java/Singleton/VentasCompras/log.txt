@@ -1,0 +1,9 @@
+16:36:26:977  Se ha creado el usuario con nombre: Enrique
+16:36:26:977  Se ha creado el producto Iphone 15 con un precio de 20000.0Bs
+16:36:26:977  Se ha creado el producto Televisor Samsung con un precio de 1500.0Bs
+16:36:26:977  Se ha creado el producto Pilfrut con un precio de 1.0Bs
+16:36:26:977  El usuario Enrique compró el producto Singleton.VentasCompras.Producto@27d6c5e0
+16:36:26:977  Se ha emitido una factura para el cliente Enrique que compró el producto Iphone 15 con un precio total de: 20000.0
+16:36:26:977  El usuario Enrique compró el producto Singleton.VentasCompras.Producto@7291c18f
+16:36:26:977  Se ha cambiado el valor del descuento a 0.2%
+16:36:26:977  Se ha emitido una factura para el cliente Enrique que compró el producto Pilfrut con un precio total de: 0.8
