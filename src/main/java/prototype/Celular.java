@@ -4,17 +4,17 @@ import java.util.List;
 
 public class Celular implements ICelular{
 
-    String modelo;
-    String tamanio;
-    int procesadores;
-    String memoria;
-    Sim sim;
-    String versionAndroid;
-    int camaras;
-    boolean bluetooth;
-    int memoriasExternas;
-    String tiempoUsoDeBateria;
-    List<String> accesorios;
+    private String modelo;
+    private String tamanio;
+    private int procesadores;
+    private String memoria;
+    private Sim sim;
+    private String versionAndroid;
+    private int camaras;
+    private boolean bluetooth;
+    private int memoriasExternas;
+    private String tiempoUsoDeBateria;
+    private List<String> accesorios;
 
     @Override
     public Celular clone() {
