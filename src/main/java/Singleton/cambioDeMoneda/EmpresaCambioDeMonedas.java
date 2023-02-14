@@ -29,10 +29,10 @@ public class EmpresaCambioDeMonedas {
     }
 
     public double cambiarABolivianos(double cantidadAConvertir, String monedaOriginal){
-        return cantidadAConvertir*cambios.get(monedaOriginal);
+        return cantidadAConvertir*cambios.getOrDefault(monedaOriginal,0.0);
     }
 
     public double cambiarAMonedaExtranjera(double cantidadEnBolivianos, String monedaExtranjera){
-        return cantidadEnBolivianos/cambios.get(monedaExtranjera);
+        return cantidadEnBolivianos/cambios.getOrDefault(monedaExtranjera,Double.POSITIVE_INFINITY);
     }
 }
